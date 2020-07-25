@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SFOPP</string>
+
+    <string name="drawer_open">abierto</string>
+    <string name="drawer_close">cerrando</string>
+
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:title="Mis Datos"
+            android:id="@+id/nav_mis_datos"
+            />
+        <item
+            android:title="Curriculum Vitae"
+            android:id="@+id/nav_cv"
+            />
+        <item
+            android:title="Notificaciones"
+            android:id="@+id/nav_notificaciones"
+            />
+        <item android:title="Otras Acciones">
+            <menu>
+                <item
+                    android:title="Compartir"
+                    android:id="@+id/nav_compartir"
+                    />
+                <item
+                    android:title="Cerrar Session"
+                    android:id="@+id/nav_cerrar_session"
+                    />
+            </menu>
+
+        </item>
+    </group>
+</menu>
